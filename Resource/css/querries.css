@@ -1,0 +1,342 @@
+
+/*big tablet to 1200px (widths smaller then 1140px row) */
+@media only screen and (max-width:1200px){
+
+html{
+    font-size: 16px;
+}   
+
+header{
+  height:90vh; 
+}
+.logo{
+    height: 55px;
+    width: auto;
+    padding-left: 15px;
+}
+
+.header-text{
+    margin:10% 0  4% 0;
+}
+
+.img-phone{
+    height: 85%;
+}
+
+.one{
+    height: 36%;
+    width: 33.3%;
+}
+
+.two{
+    height: 36%;
+    margin: 0%;
+}
+
+.three{
+    height: 36%;
+    text-align: center;
+}
+    
+h5{
+    font-size: 140%;
+}
+/*small tablets to big tablets: from 768px to 1023px */
+@media only screen and (max-width:1023px){
+    
+html{
+    font-size: 14px;
+}   
+    
+h2:after{
+    margin-top: 2%;
+}
+
+.btn:link,
+.btn:visited{
+    padding: 10 35;
+    margin-top: 2%;
+}
+
+.btn:hover,
+.btn:active{
+    padding: 10 35;
+    margin-top: 2%;
+}
+
+h1{
+    font-size:450%;
+}
+
+
+h2{
+    font-size: 150%;
+    font-weight:300;
+    margin-bottom: 30px;
+}
+
+/*--------line after h2--------*/
+h2:after{
+    display: block;
+    height: 2px;
+    width: 50px;
+    margin: 0 auto;
+    background-color: #Fff;
+    margin-top: 25px;
+    content:" ";
+}
+    
+.header-text{
+    margin:20% 0  6% 0;
+}
+
+.main-link li{
+    display:inline-block;
+    float:right;
+    margin-left: 30px;
+    padding-right: 20px;
+    padding-top:20px;
+}
+.img-phone{
+    height: 65%;
+}
+
+.box-idea:first-child{
+    margin-left: -2%;
+}
+.box-idea:last-child{
+    width: 45%;
+    line-height: normal;
+    padding-left:4%;
+}
+
+.one{
+    height: 26%;
+}
+
+.two{
+    height: 26%;
+}
+
+.three{
+    height: 26%;
+}
+
+.icon-big{
+    font-size: 500%;
+    color:#fff;
+    display: inline-block;
+    padding-top: 18%;
+    margin-bottom: 3%;
+    width: auto;
+}
+
+.section-form{
+background-color: #eee;
+}
+.contact-form{
+    width:60%;
+    margin: 0 auto;
+}
+    
+
+    
+textarea{
+    height: 13%;
+    width:100%;    
+}
+
+input[type=submit]{
+    padding: 12px 20px;
+    width:25%;
+}
+
+input[type=text],
+input[type=email]{
+    padding: 7px; 
+    margin-bottom: 3.4%;
+    height: 6%;
+}
+
+footer {
+    height: 20%;
+}
+}
+
+/*small phones to small tablets: from 481px to 767px */
+@media only screen and (max-width:767px){
+
+header{
+  height:45vh; 
+  background-attachment: fixed;
+}
+ .main-link { display: none;}
+    
+.logo{
+    height: 45px;
+    display: inline-block;}
+    
+.upper-header{
+    padding-top: 20px;
+    background-color: rgba(44, 44, 44, 0.46);
+    height: 80px;
+    margin:0 auto;
+    text-align: center
+}
+
+.header-text{
+    margin:6% 0  2% 0;
+}
+
+h1{
+    font-size:300%;
+}
+
+
+h2{
+    font-size: 120%;
+    line-height: 130%;
+}
+
+h2:after{
+    margin-top: 15px; 
+}
+
+.box-idea{
+     text-align: center;   
+    }
+h3{
+    text-align: center;
+}
+/*--------line after h4--------*/
+h3:after{
+    display: none;
+}
+
+    
+h4{
+    font-size: 140%;
+    margin-bottom: 20px;
+}
+
+/*--------line after h4--------*/
+h4:after{
+    margin-top: 15px;
+}
+
+.box-idea:first-child{
+    margin-left: 13%;
+}
+    
+.box-idea:last-child{
+    width: 100%;
+    line-height: normal       
+}
+.img-phone{
+    height: 45%;
+    text-align: center;
+}
+.one{
+   display: block;
+    float:none;
+    height: 20%;
+    width: 100%;
+    margin: 0%;
+}
+
+.two{
+    display: block;
+    float:none;
+    height: 20%;
+    width: 100%;
+    margin: 0%;
+}
+
+.three{
+   display: block;
+    float:none;
+    height: 20%;
+    width: 100%;
+    margin: 0%;
+}
+
+    .icon-big{
+    font-size: 500%;
+
+    padding-top: 7%;
+    margin-bottom: 3%;
+}
+h5{
+    font-size: 130%;
+    margin-bottom: 2px;
+    word-spacing: normal;
+    color:#fff;
+    font-weight: 400;
+    text-align: center;
+}
+
+/*--------line after h5--------*/
+h5:after{
+    text-align: center;
+    display: block;
+    height: 2px;
+    width: 50px;
+    background-color: #3affd2;
+    content:" ";
+    margin: 2% auto;
+}
+    
+.team-pic{
+    width:100%;
+}
+    
+.gallery-line li{
+    width:33.3%;
+}
+.plan{
+    width:100%;
+    padding: 1%;
+    line-height: 200%;
+}
+textarea{
+    height: 12.5%;
+}
+
+input[type=submit]{
+    width:40%;
+}
+
+/*small phones: from 0 to 480px */
+@media only screen and (max-width:480px){
+    
+   .logo{
+    height: 35px;
+    display: inline-block;} 
+    
+.box-idea:first-child{
+    margin-left: 2%;
+}
+.img-phone{
+    height: 40%;
+    text-align: center;
+}
+    
+     .icon-big{
+    font-size: 500%;
+    padding-top: 10%;
+}
+    
+    input[type=submit]{
+    width:50%;
+        margin-top: 5%;
+}
+    .footer-nav{
+    display: none;
+}
+    .category{
+    display: none;
+}
+    footer {
+    padding: 2%;
+    height: 8%; 
+}
